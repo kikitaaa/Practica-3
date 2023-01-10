@@ -1,0 +1,1246 @@
+fileFormatVersion: 2
+guid: 4a7f7326841a45445ad79391179eb1c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 409
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475239a9dce21ea46844efab1972c64e
+      internalID: -1479169562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 408
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36482a8d58f5e1e4fb5a2f00945b92a0
+      internalID: -562883928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 409
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cbc1abdb5761f45b9ad0c7938cd3d6
+      internalID: 1369670424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 409
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9410802e5f8c7b459b5cce3c4d8fd69
+      internalID: 698235226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 409
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775a95055b53ce641949f29b91944ac7
+      internalID: 838027986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 408
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e64184559d47e48a55ccd584617fba
+      internalID: -227271709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 408
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c017f3a3a9ef9274889952026726175e
+      internalID: 550773880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 408
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b6c61192f1034683787b1787d6bf5
+      internalID: 826976010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 409
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a0c13853697df48bb17aac484439c3
+      internalID: 1043417763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 409
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed875645eb3ef940a955d85a6b48b1d
+      internalID: -1016704196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 408
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d486fe7ef3a534499c72cf57046bf9
+      internalID: -546048364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 409
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d8e633cec6a97459b1dd9ce63546a6
+      internalID: 1607684848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 409
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6c1af6cc25e3d4ea7dd80704baef37
+      internalID: 1601322505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 409
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024c3dcfd19be7f4890185b6778f1de4
+      internalID: 1790160250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 409
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c919f4f4d5bfed499d62fb5d22e68d1
+      internalID: -1041257144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 282
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5990cae08b43144a96ae98be3f5457
+      internalID: 1293771111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 282
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59965c249b12b439ac994f5582dadd
+      internalID: 816487912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 282
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009f7a59af6e39a48bf2a6727f6b5376
+      internalID: -1558108555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 283
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1886af2d2a99904598ef35fbb7096d5
+      internalID: -1398731063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 282
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095a63e7c81cb8541852564df089b034
+      internalID: -1600635066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 284
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139368cc785dc8f4fa83481a3aec20d8
+      internalID: -174264358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 289
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c63f47ff335b24a8924f905f48717f
+      internalID: 2023979009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 298
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d9e3a7d6ae0c54f910667c73e89d75
+      internalID: 363954586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 307
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f139b46b2c1df7344bf3da079fb07d50
+      internalID: -297577236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 295
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a161eef6c61acd440b4f5a29efb34714
+      internalID: 896807008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 285
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a421034fcfc5924eab60f9c8abdc1ce
+      internalID: 2067648548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 173
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec094b60850c8c498328565101e87e2
+      internalID: -437740630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 173
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12c04da640191f46939ca6d380100fa
+      internalID: 139870900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 173
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53488e444bdb2bb4cba08a2246fc31df
+      internalID: -394990531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 173
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d070dc8bfe181d47986102bebca3743
+      internalID: 929400207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 173
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038a8257807748f42ae4771a8e430392
+      internalID: 468600218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 175
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768281429c5a5a242ae489160b981818
+      internalID: -158933768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 81
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0648a6c52654f4c41905ec53556cf739
+      internalID: 563252570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 81
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c2c8fb0e7a6dd4faf4d12f8d7c5881
+      internalID: 1372665885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 81
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f6c950c63ed9c4c966c5b2d7bd37de
+      internalID: 1622914800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 81
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4d40c69c6776f4dbbc7b61130d7948
+      internalID: 2072701351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 81
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f4e2e677ebd0049859c50cef0adc48
+      internalID: 14200069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 81
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91958d6947032ab44b111ddbef999a52
+      internalID: -1064169909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 81
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ffcee5d43dfc44cb9a817844603c7b
+      internalID: -58877674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 81
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3b9a31b8695a041ac4973549a0e727
+      internalID: 2025874455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 81
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7a7677c388a644b8f3dfe136947fa4
+      internalID: 1581019547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 81
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87542ea4e355454386df76adfda79de
+      internalID: -265468287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 81
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5203748832e752a4d867db292de84e81
+      internalID: -1114585415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 81
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d98f837d91b1d6468699b06bc02cfc0
+      internalID: 404203298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 81
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dc02fe1fd975c47924d7e230ac20fb
+      internalID: 1027349161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 86
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15369ea0dc88cb449e559fb2735b310
+      internalID: -1737281767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 99
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfb2e20755b2b64ebd9447ac1ae07e1
+      internalID: -82971877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 108
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e7bf88ae59e3045a886026b4427d88
+      internalID: -715866521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 119
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb540902b12aa24284d3aa070dbbeb5
+      internalID: -2133744469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 126
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5881e60b5adf978439490d0cff19b5ef
+      internalID: -1193263324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_21: 2023979009
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_4: 838027986
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_35: 2072701351
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_49: -1193263324
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_11: 1607684848
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_29: 929400207
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_28: -394990531
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_26: -437740630
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_30: 468600218
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_32: 563252570
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_25: 2067648548
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_1: -562883928
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_8: 1043417763
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_41: -265468287
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_3: 698235226
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_36: 14200069
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_18: -1398731063
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_14: -1041257144
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_31: -158933768
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_38: -58877674
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_16: 816487912
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_20: -174264358
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_24: 896807008
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_10: -546048364
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_46: -82971877
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_45: -1737281767
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_23: -297577236
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_37: -1064169909
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_48: -2133744469
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_40: 1581019547
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_39: 2025874455
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_33: 1372665885
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_13: 1790160250
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_27: 139870900
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_47: -715866521
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_22: 363954586
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_34: 1622914800
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_43: 404203298
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_42: -1114585415
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_15: 1293771111
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_12: 1601322505
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_9: -1016704196
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_2: 1369670424
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_7: 826976010
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_5: -227271709
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_19: -1600635066
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_44: 1027349161
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_0: -1479169562
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_17: -1558108555
+      DELGADO_FERNANDEZ_KAREN_A3D_AE2D3D_06_spritesheet_6: 550773880
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

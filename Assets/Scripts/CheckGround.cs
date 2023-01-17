@@ -23,6 +23,5 @@ public class CheckGround : MonoBehaviour
         return false;
     }
 
-    
 
 }

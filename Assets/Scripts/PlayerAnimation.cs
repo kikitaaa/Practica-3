@@ -14,7 +14,7 @@ public class PlayerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) //Animacion del player al caminar
         {
             animator.SetBool(boolName, true);
 
@@ -25,7 +25,7 @@ public class PlayerAnimation : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space)) //Animacion del player al saltar
         {
             animator.Play("Jump");
 

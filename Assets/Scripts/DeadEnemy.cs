@@ -15,7 +15,7 @@ public class DeadEnemy : MonoBehaviour
         if (collision.GetComponent<Player>())
         {
 
-            Destroy(gameObject.transform.parent.gameObject);
+            Destroy(gameObject.transform.parent.gameObject); //Destruye al enemigo
         }
 
     }

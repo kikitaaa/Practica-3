@@ -8,7 +8,7 @@ public class CheckGround : MonoBehaviour
    
     public bool IsGrounded() 
     {
-        RaycastHit2D resultado = Physics2D.Raycast(transform.position, 
+        RaycastHit2D resultado = Physics2D.Raycast(transform.position,  //Se lanza un rayo para  comprobar que hay colision 
             Vector2.down, rayDistance, mascaraSuelo.value);
 
         if (resultado)

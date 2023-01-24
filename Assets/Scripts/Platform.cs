@@ -19,7 +19,7 @@ public class Platform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
+        transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0)); //La plataforma se movera en un determinado tiempo y espacio.
         currentTime += Time.deltaTime;
         if (currentTime >= maxTime)
         {

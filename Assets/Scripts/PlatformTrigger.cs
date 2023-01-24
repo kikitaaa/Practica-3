@@ -9,7 +9,7 @@ public class PlatformTrigger : MonoBehaviour
         Player p = collision.GetComponent<Player>();
         if (p)
         {
-            p.gameObject.transform.parent = transform.parent;
+            p.gameObject.transform.parent = transform.parent; //Al cambiar el padre modificara la posicion, escala y rotacion relativa del padre y mantendra estos parametros del espacio del mundo igual
         }
     }
 

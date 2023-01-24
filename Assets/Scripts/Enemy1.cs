@@ -10,7 +10,7 @@ public class Enemy1 : MonoBehaviour
     public Transform ObjectFollow = null;
     public float speed = 2;
 
-    private void OnCollisionEnter2D(Collision2D other)//metodo destroy
+    private void OnCollisionEnter2D(Collision2D other)//Metodo destroy
     {
         if (other.collider.GetComponent<Player>())
         {
@@ -22,7 +22,7 @@ public class Enemy1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ObjectFollow = GameObject.FindGameObjectWithTag(Tag).GetComponent<Transform>();// invocando al player
+        ObjectFollow = GameObject.FindGameObjectWithTag(Tag).GetComponent<Transform>();// Invocamos al player
     }
 
     // Update is called once per frame

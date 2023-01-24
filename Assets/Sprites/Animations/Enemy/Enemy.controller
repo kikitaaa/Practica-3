@@ -46,7 +46,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b6103967fc5e10c459eda91585d2096d, type: 2}
+  m_Motion: {fileID: 7400000, guid: ad3c86b0178519648ba7a55036a4b70b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -58,7 +58,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Piskel clone (6) (2)_0
+  m_Name: Enemy
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:

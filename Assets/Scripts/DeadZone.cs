@@ -9,7 +9,7 @@ public class DeadZone : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
             SceneManager.LoadScene("SampleScene");
 
         }

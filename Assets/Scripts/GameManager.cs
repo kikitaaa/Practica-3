@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public AudioClip bellSound;
+    [Range(0,1)]
     private int score = 0;
     private float time = 0;
     // Start is called before the first frame update

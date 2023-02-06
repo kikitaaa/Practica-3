@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     public float jumpSpeed;
     public float rayDistance = 1.5f;
     public CheckGround check;
+    public AudioClip jumpingSound;
+    [Range(0, 1)]
+    public float jumpingVolume;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +37,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && check.IsGrounded()) //Una vez pulsada la tecla space el jugador salta.
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            AudioManager.instance.PlayAudio(jumpingSound, jumpingVolume);
         }
     }
 

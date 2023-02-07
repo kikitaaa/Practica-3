@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     static public AudioManager instance;
     private List<GameObject> activeAudioGameObjects;
+   
 
     void Awake()
     {
@@ -45,6 +46,15 @@ public class AudioManager : MonoBehaviour
         source.loop = true;
         source.Play();
         return source;
+    }
+
+    public void ClearAudioList()
+    {
+        foreach (GameObject go in activeAudioGameObjects)
+        {
+            Destroy(go);
+        }
+        activeAudioGameObjects.Clear();
     }
 
     IEnumerator PlayAudio(AudioSource source)

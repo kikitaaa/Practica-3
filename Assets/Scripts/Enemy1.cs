@@ -9,6 +9,10 @@ public class Enemy1 : MonoBehaviour
     private const string Tag = "Player";
     public Transform ObjectFollow = null;
     public float speed = 2;
+    public AudioClip playerdieSound;
+    [Range(0,2)]
+    public float playerdieVolume;
+
 
     private void OnCollisionEnter2D(Collision2D other)//Metodo destroy
     {
@@ -16,6 +20,7 @@ public class Enemy1 : MonoBehaviour
         {
             Destroy(other.gameObject);
             SceneManager.LoadScene("SampleScene");
+            AudioManager.instance.PlayAudio(playerdieSound, playerdieVolume);
         }
     }
 

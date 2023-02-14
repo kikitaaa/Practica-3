@@ -22,6 +22,7 @@ public class Enemy1 : MonoBehaviour
             
             Destroy(other.gameObject);
             SceneManager.LoadScene("SampleScene");
+            AudioManager.instance.ClearAudioList();
             AudioManager.instance.PlayAudio(playerdieSound, playerdieVolume);
         }
     }

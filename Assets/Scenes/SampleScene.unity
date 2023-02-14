@@ -1285,8 +1285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectFollow: {fileID: 0}
   speed: 2
-  playerdieSound: {fileID: 0}
-  playerdieVolume: 0
+  playerdieSound: {fileID: 8300000, guid: 38e1d5e6ae314764ebdd0a0240c3a063, type: 3}
+  playerdieVolume: 1
 --- !u!1 &368834277
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,6 @@ public class AmbientMusic : MonoBehaviour
 
     private void Start()
     {
-        AudioManager.instance.PlayAudioOnLoop(ambientMusic, musicVolume);
+        AudioManager.instance.PlayAudioOnLoop(ambientMusic, musicVolume); //Se le añade un audio en bucle a la escena del juego.
     }
 }

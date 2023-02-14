@@ -13,7 +13,7 @@ public class Money : MonoBehaviour
     {
         if (collision.CompareTag("Player")) //El player destruye los objetos extras.
         {
-            GameManager.instance.AddPunt(coinPoints);
+            GameManager.instance.AddPunt(coinPoints); //Se le añade un audio una vez el player recoja las monedas.
             Destroy(this.gameObject);
             AudioManager.instance.PlayAudio(coinSound, coinVolume);
 

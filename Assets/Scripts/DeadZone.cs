@@ -14,8 +14,8 @@ public class DeadZone : MonoBehaviour
         {
             //Destroy(collision.gameObject);
             SceneManager.LoadScene("SampleScene");
-            GameManager.instance.time = 0;
-            GameManager.instance.score = 0;
+            GameManager.instance.time = 0; 
+            GameManager.instance.score = 0; // Para que al reiniciarse la escena se reinicien el time y el score.
             AudioManager.instance.ClearAudioList();
             AudioManager.instance.PlayAudio(playerdieSound, playerdieVolume);
 

@@ -8,7 +8,7 @@ public class Text2 : MonoBehaviour
 
     void Update()
     {
-        textTime.text = "Time:" + GameManager.instance.GetTime().ToString("0.00");
+        textTime.text = "Time:" + GameManager.instance.GetTime().ToString("0.00"); //Para que se actualize el texto.
 
     }
 }

@@ -8,6 +8,6 @@ public class Text : MonoBehaviour
 
     void Update()
     {
-        textt.text = "Score: " + GameManager.instance.GetPunt();
+        textt.text = "Score: " + GameManager.instance.GetPunt(); //Para que se actualize el texto.
     }
 }

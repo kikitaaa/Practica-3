@@ -36,8 +36,8 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && check.IsGrounded()) //Una vez pulsada la tecla space el jugador salta.
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            AudioManager.instance.PlayAudio(jumpingSound, jumpingVolume);
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed); 
+            AudioManager.instance.PlayAudio(jumpingSound, jumpingVolume); //Se le añade un audio para cada vez que el player salte.
         }
     }
 

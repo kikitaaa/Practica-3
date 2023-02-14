@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public AudioSource PlayAudio(AudioClip clip, float volume = 1)
+    public AudioSource PlayAudio(AudioClip clip, float volume = 1) //Reproducir audio.
     {
         GameObject sourceObj = new GameObject(clip.name);
         activeAudioGameObjects.Add(sourceObj);
@@ -35,11 +35,11 @@ public class AudioManager : MonoBehaviour
         return source;
     }
 
-    public AudioSource PlayAudioOnLoop (AudioClip clip, float volume = 1)
+    public AudioSource PlayAudioOnLoop (AudioClip clip, float volume = 1)// Reproducir audio en bucle.
     {
-        GameObject sourceObj = new GameObject(clip.name);
-        activeAudioGameObjects.Add(sourceObj);
-        sourceObj.transform.SetParent(this.transform);
+        GameObject sourceObj = new GameObject(clip.name); //Para crear nuevo objeto.
+        activeAudioGameObjects.Add(sourceObj); //Añadir el audio al objeto.
+        sourceObj.transform.SetParent(this.transform); //Le hace hijo.
         AudioSource source = sourceObj.AddComponent<AudioSource>();
         source.clip = clip;
         source.volume = volume;
@@ -48,9 +48,9 @@ public class AudioManager : MonoBehaviour
         return source;
     }
 
-    public void ClearAudioList()
+    public void ClearAudioList() //Para limpiar el audio.
     {
-        foreach (GameObject go in activeAudioGameObjects)
+        foreach (GameObject go in activeAudioGameObjects) 
         {
             Destroy(go);
         }

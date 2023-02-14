@@ -14,6 +14,8 @@ public class DeadZone : MonoBehaviour
         {
             //Destroy(collision.gameObject);
             SceneManager.LoadScene("SampleScene");
+            GameManager.instance.time = 0;
+            GameManager.instance.score = 0;
             AudioManager.instance.ClearAudioList();
             AudioManager.instance.PlayAudio(playerdieSound, playerdieVolume);
 

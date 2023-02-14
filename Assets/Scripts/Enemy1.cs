@@ -12,12 +12,14 @@ public class Enemy1 : MonoBehaviour
     public AudioClip playerdieSound;
     [Range(0,2)]
     public float playerdieVolume;
+    
 
 
     private void OnCollisionEnter2D(Collision2D other)//Metodo destroy
     {
         if (other.collider.GetComponent<Player>())
         {
+            
             Destroy(other.gameObject);
             SceneManager.LoadScene("SampleScene");
             AudioManager.instance.PlayAudio(playerdieSound, playerdieVolume);

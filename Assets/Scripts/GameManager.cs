@@ -5,14 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public AudioClip bellSound;
-    [Range(0,1)]
-    private int score = 0;
-    private float time = 0;
+    public float score = 0;
+    public float time = 0;
+    
     // Start is called before the first frame update
     void Awake()
     {
-        if (!instance)
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -28,14 +27,15 @@ public class GameManager : MonoBehaviour
     {
         time += Time.deltaTime;
     }
-    public void AddPunt(int value)
+    public void AddPunt(float value)
     {
         score += value;
     }
-    public int Getpunt()
+    public float GetPunt()
     {
         return score;
     }
+
     public float GetTime()
     {
         return time;

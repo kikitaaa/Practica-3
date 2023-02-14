@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DeadEnemy : MonoBehaviour
 {
+    [SerializeField] private float enemyPoints;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,7 @@ public class DeadEnemy : MonoBehaviour
     {
         if (collision.GetComponent<Player>())
         {
-
+            GameManager.instance.AddPunt(enemyPoints);
             Destroy(gameObject.transform.parent.gameObject); //Destruye al enemigo
         }
 

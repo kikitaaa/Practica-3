@@ -24,12 +24,20 @@ public class PlayerAnimation : MonoBehaviour
             AudioManager.instance.PlayAudio(deadSound, deadVolume);
 
 
+
+        }
+
+        if (collision.gameObject.CompareTag("bullet"))
+        {
+            SceneManager.LoadScene("Menu");
+            AudioManager.instance.ClearAudioList();
         }
     }
     void death()
     {
         Destroy(gameObject);
         SceneManager.LoadScene("Menu");
+        AudioManager.instance.ClearAudioList();
     }
     
     void Update()

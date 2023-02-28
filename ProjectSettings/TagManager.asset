@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - void
   - deadlava
+  - Star
+  - bullet
   layers:
   - Default
   - TransparentFX

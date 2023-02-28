@@ -133,10 +133,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5184901}
   - component: {fileID: 5184900}
-  - component: {fileID: 5184902}
   m_Layer: 0
   m_Name: Dead Zone Lava
-  m_TagString: Untagged
+  m_TagString: deadlava
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -182,20 +181,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5184902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5184899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5f75db492d219c4294f029fe510be96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerdieSound: {fileID: 8300000, guid: 38e1d5e6ae314764ebdd0a0240c3a063, type: 3}
-  playerdieVolume: 2
 --- !u!1 &27822103
 GameObject:
   m_ObjectHideFlags: 0
@@ -8343,7 +8328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649552823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.36, y: -3.35, z: 0}
+  m_LocalPosition: {x: -8.01, y: -3.27, z: 0}
   m_LocalScale: {x: 2.760381, y: 2.7520611, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8407,7 +8392,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.58, y: 0.63}
+    oldSize: {x: 0.08, y: 0.1}
     newSize: {x: 0.58, y: 0.63}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

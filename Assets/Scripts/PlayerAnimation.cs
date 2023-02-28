@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerAnimation : MonoBehaviour
 {
@@ -11,7 +12,22 @@ public class PlayerAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //Hacemos la deadzone, si el player choca con la deadzone, muere y se reinicia la escena
+        if (collision.gameObject.CompareTag("deadlava"))
+        {
+            animator.Play("Dead");
+
+
+        }
+    }
+    void death()
+    {
+        Destroy(gameObject);
+        SceneManager.LoadScene("SampleScene");
+    }
+    
     void Update()
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) //Animacion del player al caminar

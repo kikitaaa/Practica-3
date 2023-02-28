@@ -8392,7 +8392,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.08, y: 0.1}
+    oldSize: {x: 0.58, y: 0.63}
     newSize: {x: 0.58, y: 0.63}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8414,6 +8414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boolName: iswalking
+  deadSound: {fileID: 8300000, guid: 6e0ae9d339816e5418f9e6a8bbb509f2, type: 3}
+  deadVolume: 1
 --- !u!1 &1863459287
 GameObject:
   m_ObjectHideFlags: 0

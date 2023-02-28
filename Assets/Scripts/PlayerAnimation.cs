@@ -7,6 +7,9 @@ public class PlayerAnimation : MonoBehaviour
 {
     private Animator animator;
     public string boolName = "iswalking";
+    public AudioClip deadSound;
+    [Range(0, 1)]
+    public float deadVolume;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -18,6 +21,7 @@ public class PlayerAnimation : MonoBehaviour
         if (collision.gameObject.CompareTag("deadlava"))
         {
             animator.Play("Dead");
+            AudioManager.instance.PlayAudio(deadSound, deadVolume);
 
 
         }
@@ -25,7 +29,7 @@ public class PlayerAnimation : MonoBehaviour
     void death()
     {
         Destroy(gameObject);
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Menu");
     }
     
     void Update()
